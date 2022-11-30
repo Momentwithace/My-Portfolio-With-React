@@ -58,7 +58,10 @@ const Contact = () => {
                             className="ml-1"/>
                     </span>
                         </button>
+
                 </form>
+
+               
             </div>
         </div>
         

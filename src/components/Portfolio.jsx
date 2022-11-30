@@ -1,10 +1,10 @@
 import React from 'react'
-import arrayDestruct from "../assert/portfolio/arrayDestruct.jpg";
 import installNode from "../assert/portfolio/installNode.jpg";
 import navBar from "../assert/portfolio/navbar.jpg";
 import reactParallax from "../assert/portfolio/reactParallax.jpg";
 import reactSmooth from "../assert/portfolio/reactSmooth.jpg";
 import reactWeather from "../assert/portfolio/reactWeather.jpg";
+import todo from "../assert/portfolio/todo.png"
 
 
 const Portfolio = () => {
@@ -12,32 +12,48 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src: arrayDestruct
+            src: todo,
+            href:"https://todo-app-with-react-dajq.vercel.app/",
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
         },
 
         {
             id:2,
-            src:installNode
+            src:installNode,
+            href:"https://todo-app-with-react-dajq.vercel.app/",
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
         },
 
         {
             id:1,
-            src: navBar
+            src: navBar,
+            href: "https://todo-app-with-react-dajq.vercel.app" ,
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
+
         },
 
         {
             id:1,
-            src: reactParallax
+            src: reactParallax,
+            href: "https://todo-app-with-react-dajq.vercel.app/" ,
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
+
         },
 
         {
             id:1,
-            src: reactSmooth
+            src: reactSmooth,
+            href: "https://todo-app-with-react-dajq.vercel.app/" ,
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
+
         },
 
         {
             id:1,
-            src: reactWeather
+            src: reactWeather,
+            href: "https://todo-app-with-react-dajq.vercel.app/" ,
+            link: "https://github.com/Momentwithace/Todo-app-with-react"
+
         }
     ]
 
@@ -58,7 +74,7 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
 
-        {portfolios.map(({id, src}) => (
+        {portfolios.map(({id, src, href, link}) => (
 
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img  
@@ -68,11 +84,16 @@ const Portfolio = () => {
                 />
             <div className="flex items-center justify-center">
 
-            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+            <button 
+            href={href}
+            className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
             >Demo
             </button>
 
-            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+            <button 
+            link={link}
+            className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+
             >Code
             </button>
             </div>

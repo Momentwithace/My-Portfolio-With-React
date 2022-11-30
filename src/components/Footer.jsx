@@ -8,7 +8,38 @@ const Footer = () => {
     <div name="footer"
     className="bg-gradient-to-b from-gray-800 to-black text-white flex flex-col 
     justify-center items-center "
-    >
+    >     
+         <div class="map-container">
+                    <h2>My Location</h2>
+                    <iframe 
+                    title='myframe'
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.
+                    1195228155516!2d3.378466199999999!3d6.5065513!2m3!1f0!2f0!3f0!3m2!1i1024
+                    !2i768!4f13.1!3m3!1m2!1s0x103b8c5f6e28522b%3A0x34bb7fdf47960f07!
+                    2s312%20Herbert%20Macaulay%20Way%2C%20Sabo%20yaba%20101245%2C%20Lagos!5e0
+                    !3m2!1sen!2sng!4v1660305168618!5m2!1sen!2sng" style={{
+
+                      width: '600',
+                      height: '450',
+                      border: '0',
+                      loading: 'lazy',
+                      referrerpolicy:  "no-referrer-when-downgrade",
+                      allowfullscreen:""
+                      
+                    }}
+                   ></iframe>
+                </div>
+
+
+                <div class="contact-me-box">
+                <div class="contact-details">
+                    <h3>312 Herbert Macualay Way</h3>
+                    <h3>Lagos, 101245</h3>
+                    <h3> Nigeria</h3>
+                    <h3>augustineezekiel763@gmail.com</h3>
+                    <h3>+2349035122224</h3>
+                </div>
+                </div>
 
         <div>
         <p className="text-xl mt-20 pb-5">
