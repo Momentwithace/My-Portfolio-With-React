@@ -27,7 +27,7 @@ const Footer = () => {
 
                 <div class="contact-me-box">
                 <div 
-                className="text-xl mt-20 pb-5 pt-5"
+                className="text-xl pb-5 mt-20"
                 class="contact-details">
                     <h3>312 Herbert Macualay Way</h3>
                     <h3>Lagos, 101245</h3>
