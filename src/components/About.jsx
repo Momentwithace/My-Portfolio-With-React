@@ -18,7 +18,9 @@ const About = () => {
             </p>
 
             <p className='text-xl mt-5'>
-               
+                My journey into Software Engineering as been an Amazing one so far, its not just
+                a Career path for me, it's considered a way of life, as the daily challenges as not 
+                just helped me as a developer, but also it as contributed greatly to my life in general.
             </p>
 
             <p className='text-xl mt-5'>
