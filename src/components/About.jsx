@@ -22,7 +22,16 @@ const About = () => {
             </p>
 
             <p className='text-xl mt-5'>
-                
+                There's seldom a boring day in the life of a software developer. Every day there's 
+                a new problem to solve and something new to learn. The field is evovling and changing
+                every year so there are endless amount of lessons to learn and puzzle to solve.
+
+                With every project you get the opportunity to work on, you learn a little bit more,
+                about the world through its different industries. From my work experiences so far, 
+                I have had the opportunity to learn more about industries such as health care, sales,
+                banking, grant writing, and the entertainment industry.
+                I look forward to having the opportunity to work with many
+                more companies and adding more value to the world through my work.
             </p>
 
             <br/>
