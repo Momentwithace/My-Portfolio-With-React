@@ -28,6 +28,14 @@ const About = () => {
             <br/>
 
             <p className="text-xl mt-20">
+                 Started first by writing java - unit testing, test driving development (TDD), alongside MySQL
+                (workbench) for database queries.
+                Later added python few months down the line, started writing spring frameworks for java,
+                django framworks for python and had to add web and other languages for frontend which i started first
+                with Html and CSS.
+                Also added javascript, react and building my software engineering skills on agile and design princples
+                has really made the journey so fun
+                and currently vibing on these languages and more adding to the list... 
                
             </p>
         </div>
