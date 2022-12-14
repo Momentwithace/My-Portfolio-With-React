@@ -13,7 +13,14 @@ const About = () => {
                 </p>
             </div>
             <p className="text-xl mt-20">
-               
+                My name's Ace, I'm 28, currently living in Lagos State, West-Africa Nigeria.
+                I'm a Software Engineer, prior to my journey into Software Engineering, I own
+                own a Business of my own here in Lagos, That's been on for years.
+                My quest for impact and love towards Innovation, drove me into Tech.
+                as i find it fascinitating to be part of the an Ecosystem,
+                That's built and structure for the purpose of technology enhancement and
+                the development Software applications, that would serve as solution and to
+                to human needs and the ecosystem at large. 
                    
             </p>
 
