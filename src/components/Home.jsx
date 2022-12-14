@@ -2,6 +2,7 @@ import React from "react"
 import Image from "../assert/portfolio/laptop.jpg"
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 import { Link } from 'react-scroll'
+// import { FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -9,20 +10,25 @@ const Home = () => {
      via-black  to-gray-800">
 
      <div className="max-w-screen-lg mx-auto flex flex-col items-center
-      justify-center h-full px-4 md:flex-row ">
+      justify-center h-full px-4 md:flex-row  ">
 
-        <div className="flex flex-col justify-center h-full ">
+        <div className="flex flex-col justify-center h-full mt-20 mr-40 ">
             <h2 className="text-4xl sm:text-7xl font-bold text-white
             ">
-                I'm a Back-End Developer
+                My name is Ace. I'm a Software Engineer.
             </h2>
+            <p className="text-gray-500 py-4 max-w-xl">
+                With over 2years of working and contributing greatly to the Tech Ecosystem,
+                am happy to say have inquiped myself with great knowledge and skill needed, 
+                to influence the growth of technology and innovation, throw building and 
+                development of scalable softwares.
+            </p>
             <p className="text-gray-500 py-4 max-w-md">
-                I have 2 years of experience building and designing software,
-                Currently, I love to work on web application using technologies like,
-                Java, Python, SpringBoot, Django and Msql.
-
-                As well have worked with few other technologies to, which include
-                Kotlin for Android development.
+            I've worked with great technologies, like Java, Python, Mysql, PosTgresl alongside frameworks
+            like Sprinboot, Django, FastApi. 
+            </p>
+            <p  className="text-gray-500 py-4 max-w-md" >
+            I have little knowledge of Mobile Development, working with Koltin and Flutter.
             </p>
 
             <div>
@@ -44,7 +50,7 @@ const Home = () => {
         <div>
             <img src={Image} 
             alt="my profile " 
-            className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+            className="rounded-2xl mx-auto w-2/3 md:w-full mt-10"/>
         </div>
      </div>
     </div>
