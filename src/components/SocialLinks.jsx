@@ -13,7 +13,7 @@ const SocialLinks = () => {
                  Linkedin <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'www.linkedin.com/in/augustine-ezekiel-14b756240',
             style: 'rounded-tr-md'
         },
 
