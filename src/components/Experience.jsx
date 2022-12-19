@@ -39,15 +39,15 @@ const Experience = () => {
 
         {
             id: 4,
-            src: reactImage,
-            title: "REACTIMAGE",
+            src: mysql,
+            title: "MYSQL",
             style: "shadow-blue-600"
         },
 
         {
             id: 5,
-            src: nextjs,
-            title: "NEXTJS",
+            src: postgresql,
+            title: "POSTGRESQL",
             style: "shadow-white"
         },
 
