@@ -6,6 +6,11 @@ import reactImage from '../assert/react.png';
 import nextjs from '../assert/nextjs.png';
 import graphql from '../assert/graphql.png';
 import github from '../assert/github.png';
+import mongodb from '../assert/mongodb-logo.jpg';
+import java from '../assert/java-logo.jpg'
+import mysql from '../assert/mysql-logo-text.jpg'
+import postgresql from '../assert/postgresql-logo.jpg'
+import python from '../assert/python-language-logo.jpg'
 import tailwind from '../assert/tailwind.png';
 
 const Experience = () => {
@@ -13,22 +18,22 @@ const Experience = () => {
     const techs = [
         {
             id: 1,
-            src: html,
-            title: "HTML",
+            src: java,
+            title: "JAVA",
             style: "shadow-orange-500"
         },
 
         {
             id: 2,
-            src: css,
-            title: "CSS",
+            src: python,
+            title: "PYTHON",
             style: "shadow-blue-500"
         },
 
         {
             id: 3,
-            src: javascript,
-            title: "JAVASCRIPT",
+            src: mongodb,
+            title: "MONGOD",
             style: "shadow-yellow-500"
         },
 
